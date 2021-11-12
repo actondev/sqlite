@@ -15,6 +15,7 @@ if cc.get_id() == 'msvc' and get_option('default_library') != 'static'
   sqlite_args += ['-DSQLITE_API=__declspec(dllexport)']
 endif
 
+sqlite_args += get_option('c_args')
 sqinc = include_directories('.')
 sqlib = library('sqlite3', 'sqlite3.c', include_directories: sqinc,
     c_args : sqlite_args,
