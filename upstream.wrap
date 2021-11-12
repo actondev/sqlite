@@ -1,7 +1,7 @@
 [wrap-file]
 directory = sqlite-amalgamation-3360000
 
-source_url = https://www.sqlite.org/2020/sqlite-amalgamation-3360000.zip
+source_url = https://www.sqlite.org/2021/sqlite-amalgamation-3360000.zip
 source_filename = sqlite-amalgamation-3360000.zip
 source_hash = 999826fe4c871f18919fdb8ed7ec9dd8217180854dd1fe21eea96aed36186729
 

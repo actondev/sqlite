@@ -1,1 +1,1 @@
-option('c_args', type: 'array', value: [], description: 'c_args to pass to sqlite3.c, used to enable different extensions')
+option('sqlite_args', type: 'array', value: [], description: 'c_args to pass to sqlite3.c, used to enable different extensions')
