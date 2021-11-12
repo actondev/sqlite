@@ -1,0 +1,9 @@
+#+PROPERTY: header-args:sh :session *meson-sqlite*
+* create patch.zip
+#+begin_src sh
+name=$(cat upstream.wrap | grep -Po '(sqlite-amalgamation-\d+)' | head -1)
+mkdir $name
+cp {meson.build,meson_options.txt,upstream.wrap} $name
+zip -r patch.zip $name
+sha256sum patch.zip
+#+end_src
