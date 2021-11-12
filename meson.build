@@ -2,7 +2,7 @@ project('sqlite',
         'c',
         license : 'pd',
         meson_version : '>=0.46',
-        version : '3320300')
+        version : '3360000')
 
 thread_dep = dependency('threads')
 
